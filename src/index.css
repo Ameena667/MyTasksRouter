@@ -11,6 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+#taskslist li {
+  float: center;
+  list-style-type: none;
+}
+
+#taskslist NavLink {
+  display: block;
+  color: "white";
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#taskslist ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #04aa6d;
+}
+
 #navigation li {
   display: inline;
   margin: 10px;
@@ -19,4 +40,41 @@ code {
 #taskslist li {
   display: inline;
   margin: 10px;
+}
+
+#countries {
+  font-family: Arial;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#countries td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#countries thead {
+  background-color: #04aa6d;
+}
+#countries tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#countries tr:hover {
+  background-color: #ddd;
+  width: 100%;
+}
+
+#countries th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+#search {
+  float: center;
+}
+#labels {
+  float: left;
+  margin: 20px;
 }
